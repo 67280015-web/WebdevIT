@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaHtml</title>
+</head>
+
+<body>
+
+    <div>
+        <audio controls>
+            <source src="media/hype-drill-music-438398.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div>
+        <video width="640" height="360" controls>
+            <source src="media/26818-361092071.mp4" type="video/mp4">
+            <source src="movie.webm" type="video/webm">
+            เบราว์เซอร์ของนักศึกษาไม่รองรับการเล่นวิดีโอ
+        </video>
+    </div>
+
+<img src="media/starfish-1851289_1280.jpg" 
+    srcset="media/starfish-1851289_640.jpg 640w,
+    media/starfish-1851289_1280.jpg 1280w,
+    media/starfish-1851289_1920.jpg 1920w" 
+    sizes="(max-width: 768px) 640px, 
+(max-width: 1366px) 1280px, 1920px" 
+>
+
+<div>
+    <picture>
+  <!-- มือถือ แสดงรูปแนวตั้ง -->
+  <source 
+    media="(max-width: 768px)" 
+    srcset="media/portrait.jpg">
+  
+  <!-- Desktop แสดงรูปแนวนอน -->
+  <source 
+    media="(min-width: 769px)" 
+    srcset="media/landscape.jpg">
+  
+  <!-- รูปสำรอง -->
+  <img src="default.jpg" alt="รูปภาพ">
+</picture>
+
+</div>
+</body>
+
+</html>
