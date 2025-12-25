@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  background: #f8f9fa;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+/* 
+========================================
+TODO: เขียน CSS สำหรับ .students-grid
+========================================
+*/
+.students-grid {
+  display: flex;              /* 1. flex container */
+  flex-wrap: wrap;            /* 2. หลายแถว */
+  justify-content: center;    /* 3. จัดกึ่งกลาง */
+  gap: 25px;                  /* 4. ระยะห่าง */
+}
+
+/* 
+========================================
+TODO: เขียน CSS สำหรับ .student-card
+========================================
+*/
+.student-card {
+  width: 280px;               /* ความกว้าง card */
+  background: #ffffff;        /* พื้นหลังสีขาว */
+  position: relative;         /* สำหรับ badge */
+  border-radius: 12px;        /* มุมโค้ง */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* เงา */
+  transition: 0.3s;           /* hover effect */
+}
+
+/* 
+========================================
+TODO: เขียน CSS สำหรับ .student-card:hover
+========================================
+*/
+.student-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* 
+========================================
+TODO: เขียน CSS สำหรับ .status-badge
+========================================
+*/
+.status-badge {
+  position: absolute;         /* มุมบนขวา */
+  top: 15px;
+  right: 15px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* สี badge */
+.status-normal {
+  background: #10b981;
+  color: white;
+}
+
+.status-probation {
+  background: #f59e0b;
+  color: white;
+}
+
+.status-dismissed {
+  background: #ef4444;
+  color: white;
+}
+
+/* 
+========================================
+TODO: เขียน CSS สำหรับ .card-image
+========================================
+*/
+.card-image {
+  width: 100%;
+  height: 200px;              /* ความสูงรูป */
+  object-fit: cover;          /* ครอบภาพ */
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* 
+========================================
+TODO: เขียน CSS สำหรับ .card-content
+========================================
+*/
+.card-content {
+  padding: 15px;
+}
+
+/* ข้อความ */
+.student-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.student-id {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 15px;
+}
+
+/* 
+========================================
+TODO: เขียน CSS สำหรับ .info-row
+========================================
+*/
+.info-row {
+  display: flex;              /* flex container */
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.info-label {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.info-value {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* 
+========================================
+TODO: เขียน CSS สำหรับ .gpa-display
+========================================
+*/
+.gpa-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gpa-display .gpa-value {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.gpa-display .gpa-text {
+  font-size: 0.875rem;
+  margin-left: 5px;
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  background: #e5e7eb;
+  margin: 15px 0;
+}

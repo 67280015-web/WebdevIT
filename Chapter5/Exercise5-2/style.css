@@ -1,0 +1,75 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 30px;
+}
+
+/* ข้อ 3 : Flexbox */
+.listing-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Card */
+.house-card{
+  width: 300px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+/* รูป */
+.card-image{
+  position: relative; /* แม่ */
+}
+
+.card-image img{
+  width: 100%;
+  display: block;
+}
+
+/* Badge */
+.badge{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff9800;
+  color: #fff;
+  padding: 5px 12px;
+  font-size: 12px;
+  border-radius: 20px;
+}
+
+/* แยกสีตามประเภท */
+.badge.condo{
+  background-color: #2196f3;
+}
+
+.badge.twin{
+  background-color: #4caf50;
+}
+
+/* เนื้อหา */
+.card-content{
+  padding: 15px;
+}
+
+.price{
+  margin: 0 0 8px;
+  font-weight: bold;
+}
+
+.title{
+  margin: 0 0 6px;
+  font-size: 18px;
+}
+
+.detail{
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
