@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Gallery</title>
+</head>
+
+<body>
+    <header>
+        <h1>Gallery</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Recommended Video</h2>
+
+            <video controls width="100%" preload="metadata">
+                <source src="https://videos.pexels.com/video-files/856064/856064-hd_1920_1080_30fps.mp4"
+                    type="video/mp4">
+                เบราว์เซอร์ของคุณไม่รองรับวิดีโอ
+            </video>
+
+            <p>
+                แหล่งวิดีโอ: Pexels Videos
+            </p>
+        </section>
+
+        <section>
+            <h2>เพลงประกอบ</h2>
+
+            <audio controls preload="metadata">
+                <source src="media/audio.flac" type="audio/mpeg">
+                เบราว์เซอร์ของคุณไม่รองรับเสียง
+            </audio>
+
+            <p>
+                แหล่งเสียงตัวอย่าง: Freesound
+            </p>
+        </section>
+
+        <h2>รูปภาพ</h2>
+
+        <!-- รูปที่ 1 -->
+        <figure>
+            <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800"
+                srcset="
+            https://images.pexels.com/photos/1556654/pexels-photo-1556654.jpeg?auto=compress&cs=tinysrgb&w=480 480w,
+            https://images.pexels.com/photos/1556654/pexels-photo-1556654.jpeg?auto=compress&cs=tinysrgb&w=800 800w,
+            https://images.pexels.com/photos/1556654/pexels-photo-1556654.jpeg?auto=compress&cs=tinysrgb&w=1200 1200w
+          " sizes="(max-width: 600px) 100vw, 800px" alt="ตัวอย่างภาพจาก Pexels 1" width="800" />
+            <figcaption>Image I</figcaption>
+        </figure>
+
+        <!-- รูปที่ 2 -->
+        <figure>
+            <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=800"
+                srcset="
+            https://images.pexels.com/photos/278508/pexels-photo-278508.jpeg?auto=compress&cs=tinysrgb&w=480 480w,
+            https://images.pexels.com/photos/278508/pexels-photo-278508.jpeg?auto=compress&cs=tinysrgb&w=800 800w,
+            https://images.pexels.com/photos/278508/pexels-photo-278508.jpeg?auto=compress&cs=tinysrgb&w=1200 1200w
+          " sizes="(max-width: 600px) 100vw, 800px" alt="ตัวอย่างภาพจาก Pexels 2" width="800" />
+            <figcaption>Image II</figcaption>
+        </figure>
+
+            <figure>
+            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800"
+                srcset="
+            https://images.pexels.com/photos/1578010/pexels-photo-1578010.jpeg?auto=compress&cs=tinysrgb&w=480 480w,
+            https://images.pexels.com/photos/1578010/pexels-photo-1578010.jpeg?auto=compress&cs=tinysrgb&w=800 800w,
+            https://images.pexels.com/photos/1578010/pexels-photo-1578010.jpeg?auto=compress&cs=tinysrgb&w=1200 1200w
+          " sizes="(max-width: 600px) 100vw, 800px" alt="ตัวอย่างภาพจาก Pexels 3" width="800" />
+            <figcaption>Image III</figcaption>
+        </figure>
+        </section>
+    </main>
+</body>
+
+</html>
