@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ALMA STUDIO — Workshop Space</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="blogstyle.css" />
+</head>
+
+<body>
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="blogpost.html" aria-label="ALMA STUDIO">
+        <span class="brand__dot"></span>
+        <span class="brand__text">ALMA STUDIO</span>
+      </a>
+
+      <nav class="nav" aria-label="เมนูหลัก">
+        <a class="nav__link is-active" href="blogpost.html">หน้าแรก</a>
+        <a class="nav__link" href="#about">เกี่ยวกับ</a>
+        <a class="nav__link" href="#workshops">เวิร์กช็อป</a>
+        <a class="nav__link" href="#place">สถานที่</a>
+        <a class="nav__link" href="#contact">ติดต่อ</a>
+      </nav>
+
+      <a class="btn btn--primary topbar__cta" href="#contact">จองเวิร์กช็อป</a>
+
+      <button class="burger" type="button" aria-label="เปิด/ปิดเมนู" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__text">
+          <p class="kicker">Workshop Space • Bangkok</p>
+          <h1 class="hero__title">พื้นที่สร้างสรรค์ที่ “มีความหมาย”</h1>
+          <p class="hero__desc">
+            ALMA STUDIO คือสตูดิโอเวิร์กช็อปที่ออกแบบมาช่วยเติมพลังใจ
+            สำหรับคนที่อยากพักใจ ทำงานมือ และกลับไปพร้อมชิ้นงานที่ภูมิใจ
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#workshops">ดูเวิร์กช็อป</a>
+            <a class="btn btn--ghost" href="#about">รู้จักเรา</a>
+          </div>
+
+          <div class="meta">
+            <div class="meta__item">
+              <span class="meta__label">ระยะเวลา</span>
+              <span class="meta__value">1–2 ชั่วโมง</span>
+            </div>
+            <div class="meta__item">
+              <span class="meta__label">เหมาะกับ</span>
+              <span class="meta__value">เพื่อน / คู่รัก / ทีม</span>
+            </div>
+
+          </div>
+        </div>
+
+        <figure class="hero__media">
+          <img src="https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?auto=format&fit=crop&w=1400&q=80"
+            alt="บรรยากาศสตูดิโอเวิร์กช็อป" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="section__title">เกี่ยวกับ ALMA</h2>
+          <p class="section__subtitle">A space to create from the soul.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3 class="card__title">Minimal • Calm</h3>
+            <p class="card__desc">
+              โทนสตูดิโอเรียบ อบอุ่น แสงดี เพื่อให้คุณโฟกัสกับการ “ทำ” ได้เต็มที่
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Hands-on จริง</h3>
+            <p class="card__desc">
+              มีผู้สอนคอยแนะนำทีละขั้น เหมาะทั้งมือใหม่และคนที่อยากฝึกทักษะเพิ่ม
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">เหมาะกับทีม</h3>
+            <p class="card__desc">
+              รองรับกิจกรรมกลุ่มและองค์กร ช่วยให้ทีมได้พักและกลับมาพร้อมพลังใหม่
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Workshops -->
+    <section class="section section--muted" id="workshops">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="section__title">เวิร์กช็อปยอดนิยม</h2>
+          <p class="section__subtitle">เลือกกิจกรรมที่เข้ากับอารมณ์วันนี้ของคุณ</p>
+        </div>
+
+        <div class="grid">
+          <article class="tile">
+            <div class="tile__top">
+              <h3 class="tile__title">Aroma Candle</h3>
+              <span class="pill">90 นาที</span>
+            </div>
+            <p class="tile__desc">ผสมกลิ่น ออกแบบโทนสี และหล่อเทียนในสไตล์ของคุณ</p>
+            <div class="tile__bottom">
+              <span class="price">เริ่ม 690฿</span>
+              <a class="link" href="#contact">สนใจจอง</a>
+            </div>
+          </article>
+
+          <article class="tile">
+            <div class="tile__top">
+              <h3 class="tile__title">Paint & Pot</h3>
+              <span class="pill">60 นาที</span>
+            </div>
+            <p class="tile__desc">เพนท์กระถาง + เลือกต้นไม้เล็ก ๆ กลับไปแต่งห้อง</p>
+            <div class="tile__bottom">
+              <span class="price">เริ่ม 590฿</span>
+              <a class="link" href="#contact">สนใจจอง</a>
+            </div>
+          </article>
+
+          <article class="tile">
+            <div class="tile__top">
+              <h3 class="tile__title">Clay Basics</h3>
+              <span class="pill">120 นาที</span>
+            </div>
+            <p class="tile__desc">ปั้นชิ้นงานเล็ก ๆ ที่ใช้ได้จริง เช่น ถาด แก้ว หรือที่วางเครื่องประดับ</p>
+            <div class="tile__bottom">
+              <span class="price">เริ่ม 890฿</span>
+              <a class="link" href="#contact">สนใจจอง</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Place -->
+    <section class="section" id="place">
+      <div class="wrap place">
+        <div class="place__text">
+          <h2 class="section__title">สถานที่ & บรรยากาศ</h2>
+          <p class="section__subtitle">
+            ตั้งอยู่ในกรุงเทพฯ เดินทางง่าย เหมาะสำหรับการแวะมาพักใจช่วงบ่าย
+          </p>
+
+          <ul class="list">
+            <li>⏰ เปิดทุกวัน 10:00–19:00</li>
+            <li>👥 กลุ่มเล็ก 1–12 คน / กรุ๊ปองค์กรตามนัดหมาย</li>
+            <li>☕ มีเครื่องดื่มแบบเรียบง่าย และมุมถ่ายรูป</li>
+          </ul>
+        </div>
+
+        <div class="place__media">
+          <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1400&q=80"
+            alt="พื้นที่สตูดิโอภายใน" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--muted" id="contact">
+      <div class="wrap contact">
+        <div class="contact__text">
+          <h2 class="section__title">ติดต่อ & จอง</h2>
+          <p class="section__subtitle">
+            ทักเพื่อเช็คตารางว่าง หรือให้เราช่วยแนะนำเวิร์กช็อปที่เหมาะกับคุณ
+          </p>
+
+          <div class="contact__box">
+            <p><strong>📍 The UNDONE Bangkok, Thailand</strong></p>
+            <p>📞 0984468991</p>
+            <p>✉️ hello@almastudio.cc</p>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="wrap footer__inner">
+
+      <div class="footer-bottom">
+        © 2025 ALMA STUDIO | All Rights Reserved
+      </div>
+      <p class="footer__sub">A space to create from the soul.</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
